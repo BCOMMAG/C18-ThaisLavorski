@@ -1,0 +1,236 @@
+@import "tailwindcss";
+@import "lenis/dist/lenis.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Regra 60-30-10: Modo Claro */
+  --bg-primary: #FDFBF7; /* 60% Fundo Off-White */
+  --bg-card: #FFFFFF;
+  --bg-secondary: #F6F2EC; /* Suporte suave editorial */
+  --text-main: #1A2536; /* 30% Azul Marinho Noturno para títulos e texto de destaque */
+  --text-muted: #64748B; /* Cinza Slate para parágrafos e leitura longa */
+  
+  /* Cores de Identidade da Marca */
+  --brand-navy: #1A2536;
+  --brand-gold: #B58A80; /* 10% Ação / Rosé Gold */
+  --brand-gold-hover: #9D736A;
+  --brand-gold-light: #E3C9C3; /* Rosé Quartz Suave */
+  --brand-slate: #64748B;
+  --brand-silver: #D1D5DB;
+
+  /* Cores de Ação / CTAs */
+  --accent: #B58A80;
+  --accent-hover: #9D736A;
+  --accent-light: #E3C9C3;
+  --accent-dark: #1A2536;
+  --border-subtle: rgba(26, 37, 54, 0.12);
+}
+
+html.dark {
+  /* Regra 60-30-10: Modo Escuro */
+  --bg-primary: #0D1726; /* 60% Fundo Azul Noturno Profundo */
+  --bg-card: #152238;
+  --bg-secondary: #1B2B46;
+  --text-main: #D1D5DB; /* 30% Prateado Platina para títulos e leitura refinada */
+  --text-muted: #94A3B8; /* Slate suave para descrições */
+  
+  /* Cores de Identidade da Marca */
+  --brand-navy: #1A2536;
+  --brand-gold: #B58A80; /* 10% Ação / Rosé Gold */
+  --brand-gold-hover: #C4998F;
+  --brand-gold-light: #243550;
+  --brand-slate: #64748B;
+  --brand-silver: #D1D5DB;
+
+  /* Cores de Ação / CTAs */
+  --accent: #B58A80;
+  --accent-hover: #C4998F;
+  --accent-light: #1B2B46;
+  --accent-dark: #0D1726;
+  --border-subtle: rgba(209, 213, 219, 0.16);
+}
+
+html {
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: clip;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  font-family: var(--font-body), 'Krub', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tipografia de Títulos e Cabeçalhos: Inter */
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading), 'Inter', sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Tipografia de Leitura e Texto Corrido: Krub */
+.font-body {
+  font-family: var(--font-body), 'Krub', sans-serif;
+}
+
+/* Bordas sutis editoriais */
+.editorial-border {
+  border-color: var(--border-subtle);
+}
+
+.editorial-border-b {
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.editorial-border-t {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.editorial-border-l {
+  border-left: 1px solid var(--border-subtle);
+}
+
+.editorial-border-r {
+  border-right: 1px solid var(--border-subtle);
+}
+
+/* Marcador geométrico estilo editorial */
+.bullet-indicator {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 9999px;
+  background-color: currentColor;
+  flex-shrink: 0;
+}
+
+/* Botão Pill */
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-family: var(--font-heading), 'Inter', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  font-size: 0.9375rem;
+  transition: all 0.3s cubic-bezier(0.3, 0.86, 0.36, 0.95);
+}
+
+/* Underline expansivo ao passar o mouse */
+.editorial-link {
+  position: relative;
+  display: inline-block;
+}
+
+.editorial-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.editorial-link:hover::after {
+  width: 100%;
+}
+
+/* Pulso sutil no botão flutuante de WhatsApp */
+@keyframes pulseWhatsApp {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.pulse-whatsapp {
+  animation: pulseWhatsApp 2.2s infinite;
+}
+
+/* Animação de Marquee Contínuo */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 45s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Animações de Fade-in, Scroll Reveal, Hover Effects */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-zoom-in {
+  animation: zoomIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Transições suaves de hover */
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
