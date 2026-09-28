@@ -123,13 +123,8 @@ export function InstitutionalPillars() {
           <div className="pillar-item flex flex-col items-start px-0 sm:px-6 pt-6 sm:pt-0 first:pt-0 will-change-transform">
             <div className="flex items-center gap-2 mb-2 text-[var(--accent)]">
               <Award className="w-5 h-5 text-[var(--accent)]" />
-              <span
-                className="metric-counter font-heading text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-main)]"
-                data-target="8"
-                data-prefix="+"
-                data-suffix=" Anos"
-              >
-                +8 Anos
+              <span className="font-heading text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-main)]">
+                Desde 2016
               </span>
             </div>
             <h3 className="font-heading text-base font-semibold text-[var(--text-main)] mb-1.5">

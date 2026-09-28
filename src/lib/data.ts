@@ -43,13 +43,13 @@ export const OFFICE_INFO: OfficeInfo = {
   oabText: "Inscrita na OAB/PR • Atuação em estrita observância ao Código de Ética e ao Provimento nº 205/2021 do CFOAB",
   tagline: "Defesa humanizada, técnica e estratégica em Direito de Família, Sucessões e Planejamento Patrimonial.",
   slogan: "Protegendo laços, garantindo direitos e construindo soluções jurídicas seguras para o seu patrimônio e sua família.",
-  experienceYears: "mais de 8 anos",
+  experienceYears: "desde 2016",
   phone: "(41) 99639-2996",
   whatsapp: "5541996392996",
   whatsappNumber: "5541996392996",
   whatsappFormatted: "(41) 99639-2996",
   whatsappUrl:
-    "https://wa.me/5541996392996?text=Ol%C3%A1%2C%20Dra.%20Thais%20Iavorski!%20Vim%20pelo%20site%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica.",
+    "https://wa.me/5541996392996?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20uma%20orienta%C3%A7%C3%A3o%20jur%C3%ADdica%20com%20a%20advogada.",
   instagramUrl: "https://www.instagram.com/thaisiavorski/",
   instagramHandle: "@thaisiavorski",
   linkedinUrl: "https://www.linkedin.com/in/thais-iavorski-508a741a7/?trk=public_profile_browsemap_profile-result-card_result-card_full-click",
@@ -89,7 +89,7 @@ export const LAWYER_PROFILE: LawyerProfile = {
   role: "Advogada Especialista em Direito de Família e Sucessões",
   graduation:
     "Pós-Graduada em Direito de Família e Sucessões • Bacharel em Direito pelo Centro Universitário UniDomBosco (2012 – 2016)",
-  experience: "Mais de 8 anos de prática forense, consultiva e mediação jurídica",
+  experience: "Prática forense, consultiva e mediação jurídica desde 2016",
   bio: [
     "Dra. Thais Iavorski é advogada com atuação dedicada e pós-graduação especializada em Direito de Família e Sucessões. Formada pelo Centro Universitário UniDomBosco, conquistou sua aprovação no rigoroso Exame de Ordem dos Advogados do Brasil (OAB) ainda antes da conclusão da graduação, coroando uma trajetória de perseverança iniciada com uma bolsa de estudos integral obtida por mérito acadêmico.",
     "Sua paixão e sensibilidade pelo Direito de Família brotaram de suas próprias vivências pessoais. Tendo enfrentado na juventude o divórcio dos seus pais e as profundas repercussões financeiras e emocionais que afetam um núcleo familiar durante uma ruptura, Thais assumiu precocemente o papel de amparo e sustento ao lado de sua mãe. Essa experiência prática de vida forjou uma profissional que compreende com empatia genuína as dores, as ansiedades e as necessidades de quem atravessa crises familiares.",
@@ -99,7 +99,7 @@ export const LAWYER_PROFILE: LawyerProfile = {
     "Pós-Graduação especializada em Direito de Família e Sucessões.",
     "Aprovação no Exame da OAB antes do término da faculdade de Direito.",
     "Graduação em Direito cursada com bolsa de estudos integral conquistada por mérito.",
-    "Mais de 8 anos de advocacia ininterrupta, atuação em audiências, acordos de partilha e inventários.",
+    "Atuação ininterrupta desde 2016, com sólida experiência em audiências, acordos de partilha e inventários.",
   ],
   personalNotes: [
     "Advocacia empática e acolhedora: cada cliente é atendido com atenção individualizada e compreensão da dinâmica familiar.",
@@ -392,7 +392,7 @@ export const WORK_PROCESS_STEPS: Step[] = [
   {
     number: "01",
     title: "Acolhimento & Escuta Humanizada",
-    subtitle: "Atendimento direto com a Dra. Thais via WhatsApp",
+    subtitle: "Atendimento direto com a advogada via WhatsApp",
     description:
       "Você relata sua situação em sigilo ético absoluto. Compreendemos não apenas o aspecto documental, mas as dores emocionais e preocupações práticas que envolvem sua família.",
   },

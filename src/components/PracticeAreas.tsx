@@ -204,13 +204,13 @@ export function PracticeAreas() {
                 <div className="pt-4 border-t border-[var(--border-subtle)]/30 flex items-center justify-between">
                   <a
                     href={`https://wa.me/${OFFICE_INFO.whatsappNumber}?text=${encodeURIComponent(
-                      `Olá, Dra. Thais! Gostaria de uma consulta jurídica sobre ${area.title}.`
+                      `Olá! Gostaria de consultoria jurídica com a advogada sobre ${area.title}.`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs font-heading font-bold text-[var(--accent)] hover:text-[#9D736A] transition-colors group cursor-pointer"
                   >
-                    <span>Falar sobre {area.title.split("&")[0].trim()}</span>
+                    <span>Consultar sobre {area.title.split("&")[0].trim()}</span>
                     <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </a>
                 </div>
@@ -266,13 +266,13 @@ export function PracticeAreas() {
                 <div className="pt-4 border-t border-[var(--border-subtle)]/30 flex items-center justify-between">
                   <a
                     href={`https://wa.me/${OFFICE_INFO.whatsappNumber}?text=${encodeURIComponent(
-                      `Olá, Dra. Thais! Gostaria de uma consulta jurídica sobre ${area.title}.`
+                      `Olá! Gostaria de consultoria jurídica com a advogada sobre ${area.title}.`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs font-heading font-bold text-[var(--accent)] hover:text-[#9D736A] transition-colors group cursor-pointer"
                   >
-                    <span>Falar sobre {area.title.split("&")[0].trim()}</span>
+                    <span>Consultar sobre {area.title.split("&")[0].trim()}</span>
                     <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </a>
                 </div>
@@ -346,14 +346,14 @@ export function PracticeAreas() {
                     <div className="pt-3">
                       <a
                         href={`https://wa.me/${OFFICE_INFO.whatsappNumber}?text=${encodeURIComponent(
-                          `Olá, Dra. Thais! Gostaria de orientação sobre ${area.title}.`
+                          `Olá! Gostaria de orientação jurídica com a advogada sobre ${area.title}.`
                         )}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-sm inline-flex items-center justify-center cursor-pointer"
                       >
                         <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
-                        <span>Falar com a Dra. Thais no WhatsApp</span>
+                        <span>Retirar dúvidas com Advogada no WhatsApp</span>
                       </a>
                     </div>
                   </div>

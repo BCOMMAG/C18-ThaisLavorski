@@ -17,7 +17,7 @@ export default function LinksPage() {
   const quickLinks = [
     {
       id: "whatsapp",
-      title: "WhatsApp Oficial com Dra. Thais",
+      title: "WhatsApp Oficial com Advogada",
       subtitle: "Atendimento imediato e agendamento de consultas",
       href: OFFICE_INFO.whatsappUrl,
       icon: WhatsAppIcon,
@@ -108,7 +108,7 @@ export default function LinksPage() {
           <div className="relative z-10 flex items-center justify-between">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#B58A80]/40 bg-[#1A2536]/80 backdrop-blur-md text-xs font-heading tracking-wider text-[#E3C9C3]">
               <ShieldCheck className="w-3.5 h-3.5 text-[#B58A80]" />
-              <span>+8 Anos de Prática Especializada</span>
+              <span>Atuação Jurídica desde 2016</span>
             </div>
             <span className="text-[0.6875rem] font-heading uppercase tracking-widest text-[#B58A80]">
               Curitiba/PR • Todo o Brasil
@@ -180,7 +180,7 @@ export default function LinksPage() {
                 Canais de Atendimento
               </h2>
               <p className="font-body text-xs text-gray-500 mt-0.5">
-                Escolha o canal desejado para se comunicar diretamente com a Dra. Thais Iavorski.
+                Escolha o canal desejado para se comunicar diretamente com a advogada.
               </p>
             </div>
 

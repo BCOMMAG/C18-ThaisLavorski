@@ -95,7 +95,7 @@ export function EducationalSection() {
   );
 
   const getWhatsAppMessageUrl = (topicTitle: string) => {
-    const text = `Olá, Dra. Thais! Li o conteúdo educativo sobre "${topicTitle}" no seu site e gostaria de orientação a respeito do meu caso.`;
+    const text = `Olá! Li o conteúdo educativo sobre "${topicTitle}" no site e gostaria de orientação jurídica com a advogada a respeito do meu caso.`;
     return `https://wa.me/${OFFICE_INFO.whatsappNumber}?text=${encodeURIComponent(text)}`;
   };
 
@@ -236,7 +236,7 @@ export function EducationalSection() {
                   className="btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white py-2.5 px-5 text-xs font-semibold gap-2 shadow-sm inline-flex items-center cursor-pointer flex-shrink-0"
                 >
                   <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
-                  <span>Tirar Dúvida no WhatsApp</span>
+                  <span>Retirar dúvidas com Advogada</span>
                 </a>
               </div>
             </div>

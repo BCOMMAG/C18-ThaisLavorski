@@ -141,7 +141,7 @@ export function ContactSection() {
                     {OFFICE_INFO.phone}
                   </a>
                   <p className="text-xs font-body text-[var(--text-muted)] mt-1">
-                    Atendimento ágil para esclarecimento de dúvidas e agendamento de consultas com a Dra. Thais.
+                    Atendimento ágil para esclarecimento de dúvidas e agendamento com a advogada.
                   </p>
                 </div>
               </div>
@@ -223,7 +223,7 @@ export function ContactSection() {
                 className="w-full btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white py-3.5 gap-2 shadow-md text-sm sm:text-base cursor-pointer hover-lift transition-all inline-flex items-center justify-center font-semibold"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-white" />
-                <span>Iniciar Conversa no WhatsApp</span>
+                <span>Falar direto com Advogada no WhatsApp</span>
               </a>
             </div>
           </div>

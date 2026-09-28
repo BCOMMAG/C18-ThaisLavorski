@@ -147,7 +147,7 @@ export function About() {
             </h2>
           </div>
           <p className="font-body text-sm sm:text-base text-[var(--text-muted)] max-w-xl leading-relaxed">
-            Mais de 8 anos de prática forense aliando sensibilidade humana, capacidade mediadora refinada e rigor técnico na proteção das famílias e seus patrimônios.
+            Prática forense ativa desde 2016 aliando sensibilidade humana, capacidade mediadora refinada e rigor técnico na proteção das famílias e seus patrimônios.
           </p>
         </div>
 
@@ -188,7 +188,7 @@ export function About() {
             {/* Destaques Rápidos */}
             <div className="about-text-anim grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
               <div className="p-3.5 rounded-xl bg-[var(--bg-card)] border border-[var(--border-subtle)]/30 shadow-2xs">
-                <span className="font-heading text-xs font-bold text-[var(--accent)] block">+8 Anos</span>
+                <span className="font-heading text-xs font-bold text-[var(--accent)] block">Desde 2016</span>
                 <span className="text-[0.6875rem] text-[var(--text-muted)] font-body">Prática Forense & Consultiva</span>
               </div>
               <div className="p-3.5 rounded-xl bg-[var(--bg-card)] border border-[var(--border-subtle)]/30 shadow-2xs">
@@ -224,7 +224,7 @@ export function About() {
                 className="btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white border-2 border-[#E3C9C3]/40 gap-2 py-3 px-6 text-xs sm:text-sm shadow-md hover-lift transition-all flex items-center cursor-pointer font-semibold"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-white" />
-                <span>Falar com a Dra. Thais</span>
+                <span>Falar direto com Advogada</span>
               </a>
             </div>
 

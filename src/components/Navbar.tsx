@@ -148,7 +148,7 @@ export function Navbar() {
 
             {/* Menu Desktop */}
             <nav
-              className={`hidden lg:flex items-center gap-6 xl:gap-8 text-[0.875rem] font-heading uppercase tracking-wider transition-colors duration-300 ${
+              className={`hidden lg:flex items-center gap-6 xl:gap-8 text-[0.75rem] font-heading uppercase tracking-wider transition-colors duration-300 ${
                 !isScrolled ? "text-white/95" : "text-[var(--text-main)]"
               }`}
             >
@@ -156,7 +156,7 @@ export function Navbar() {
                 Início
               </Link>
 
-              {/* Submenu 1: O Escritório */}
+              {/* Submenu 1: Escritório */}
               <div
                 ref={officeRef}
                 className="relative"
@@ -169,7 +169,7 @@ export function Navbar() {
                   className="inline-flex items-center gap-1.5 transition-colors py-2 focus:outline-none cursor-pointer hover:text-[var(--accent)] font-semibold"
                   aria-expanded={officeDropdownOpen}
                 >
-                  <span className="editorial-link">O Escritório</span>
+                  <span className="editorial-link">Escritório</span>
                   <ChevronDown
                     className={`w-3.5 h-3.5 transition-transform duration-200 ${
                       officeDropdownOpen ? "rotate-180 text-[var(--accent)]" : "opacity-70"
@@ -311,16 +311,15 @@ export function Navbar() {
             <div className="relative z-10 flex items-center gap-1.5 sm:gap-3 flex-shrink-0">
               <ThemeToggle />
 
-              {/* Botão de WhatsApp Desktop */}
+              {/* Botão de WhatsApp Desktop Oficial Verde */}
               <a
                 href={OFFICE_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hidden sm:inline-flex btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white py-2 sm:py-2.5 px-3.5 sm:px-5 gap-2 text-xs font-semibold shadow-md hover-lift transition-all cursor-pointer"
+                className="hidden sm:inline-flex btn-pill bg-[#25D366] hover:bg-[#20ba59] text-white py-2 sm:py-2.5 px-3.5 sm:px-4 gap-2 text-xs font-semibold shadow-md hover-lift transition-all cursor-pointer"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-white" />
-                <span className="hidden xl:inline">Falar com Dra. Thais</span>
-                <span className="xl:hidden">WhatsApp</span>
+                <span>WhatsApp</span>
               </a>
 
               {/* Botão Hambúrguer Mobile */}
@@ -392,7 +391,7 @@ export function Navbar() {
                     onClick={() => setMobileOfficeOpen(!mobileOfficeOpen)}
                     className="w-full flex items-center justify-between py-3 px-3 rounded-xl hover:bg-[var(--bg-secondary)] text-[var(--text-main)] transition-colors cursor-pointer"
                   >
-                    <span>O Escritório</span>
+                    <span>Escritório</span>
                     <ChevronDown
                       className={`w-4 h-4 transition-transform ${mobileOfficeOpen ? "rotate-180 text-[var(--accent)]" : ""}`}
                     />
@@ -518,10 +517,10 @@ export function Navbar() {
                 href={OFFICE_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white py-3 gap-2 text-xs font-semibold shadow-md flex items-center justify-center cursor-pointer"
+                className="w-full btn-pill bg-[#25D366] hover:bg-[#20ba59] text-white py-3 gap-2 text-xs font-semibold shadow-md flex items-center justify-center cursor-pointer"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-white" />
-                <span>Falar no WhatsApp</span>
+                <span>WhatsApp</span>
               </a>
 
               <div className="text-[0.6875rem] text-[var(--text-muted)] font-body text-center leading-relaxed">

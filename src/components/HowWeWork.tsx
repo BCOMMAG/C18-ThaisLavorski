@@ -195,7 +195,7 @@ export function HowWeWork() {
             Pronto para dar o primeiro passo com segurança?
           </h3>
           <p className="font-body text-xs sm:text-sm text-[var(--text-muted)] max-w-lg mx-auto mb-5 leading-relaxed">
-            Fale diretamente com a Dra. Thais Iavorski. Relate o momento que você está vivenciando e receba orientação clara e reservada.
+            Fale direto com a advogada. Relate o momento que você está vivenciando e receba orientação clara e reservada.
           </p>
           <a
             href={OFFICE_INFO.whatsappUrl}
@@ -204,7 +204,7 @@ export function HowWeWork() {
             className="btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white border-2 border-[#E3C9C3]/40 gap-2 text-xs sm:text-sm font-semibold shadow-md hover-lift transition-all inline-flex items-center cursor-pointer"
           >
             <WhatsAppIcon className="w-4 h-4 fill-white" />
-            <span>Iniciar Atendimento no WhatsApp</span>
+            <span>Falar direto com Advogada</span>
           </a>
         </div>
       </div>

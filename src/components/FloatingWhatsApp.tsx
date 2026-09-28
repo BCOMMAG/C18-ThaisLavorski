@@ -45,14 +45,14 @@ export function FloatingWhatsApp() {
         }`}
       >
         <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping flex-shrink-0" />
-        <span>Falar com a Dra. Thais</span>
+        <span>Falar direto com Advogada</span>
       </div>
 
       <a
         href={OFFICE_INFO.whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Atendimento direto via WhatsApp com a Dra. Thais Iavorski"
+        aria-label="Atendimento direto via WhatsApp com a advogada"
         className="w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20ba59] text-white flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110 relative cursor-pointer"
       >
         <WhatsAppIcon className="w-7 h-7 text-white fill-white" />

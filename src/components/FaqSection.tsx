@@ -196,14 +196,14 @@ export function FaqSection() {
                       </span>
                       <a
                         href={`https://wa.me/${OFFICE_INFO.whatsappNumber}?text=${encodeURIComponent(
-                          `Olá, Dra. Thais! Vi no FAQ a dúvida sobre "${item.question}" e gostaria de saber mais sobre o meu caso.`
+                          `Olá! Vi no FAQ a dúvida sobre "${item.question}" e gostaria de retirar dúvidas com a advogada sobre o meu caso.`
                         )}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#B58A80] hover:bg-[#9D736A] text-white border border-[#E3C9C3]/50 text-xs font-heading font-semibold shadow-xs hover-lift transition-all cursor-pointer"
                       >
                         <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
-                        <span>Saiba mais no WhatsApp</span>
+                        <span>Retirar dúvidas com Advogada</span>
                         <ArrowUpRight className="w-3.5 h-3.5" />
                       </a>
                     </div>
@@ -226,7 +226,7 @@ export function FaqSection() {
             Sua dúvida não foi respondida acima?
           </h3>
           <p className="font-body text-xs sm:text-sm text-[var(--text-muted)] max-w-md mx-auto mb-5 leading-relaxed">
-            Cada situação familiar possui particularidades patrimoniais e documentais únicas. Envie sua mensagem no WhatsApp para uma análise direta e privativa com a Dra. Thais Iavorski.
+            Cada situação familiar possui particularidades patrimoniais e documentais únicas. Envie sua mensagem no WhatsApp para uma análise direta e privativa com advogada especializada.
           </p>
           <a
             href={OFFICE_INFO.whatsappUrl}
@@ -235,7 +235,7 @@ export function FaqSection() {
             className="btn-pill bg-[#B58A80] hover:bg-[#9D736A] text-white border-2 border-[#E3C9C3]/40 gap-2 shadow-[0_4px_20px_rgba(181,138,128,0.35)] text-xs sm:text-sm font-semibold inline-flex items-center cursor-pointer"
           >
             <WhatsAppIcon className="w-4 h-4 fill-white" />
-            <span>Falar no WhatsApp com a Dra. Thais</span>
+            <span>Retirar dúvidas com Advogada no WhatsApp</span>
           </a>
         </div>
       </div>

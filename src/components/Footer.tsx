@@ -48,7 +48,7 @@ export function Footer() {
 
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#B58A80]/30 bg-[#1A2536] text-xs font-heading text-[#E3C9C3]">
               <ShieldCheck className="w-3.5 h-3.5 text-[#B58A80]" />
-              <span>{OFFICE_INFO.lawyer} • +8 Anos de Prática Jurídica</span>
+              <span>{OFFICE_INFO.lawyer} • Advocacia desde 2016</span>
             </div>
           </div>
 

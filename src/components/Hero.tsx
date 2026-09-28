@@ -115,7 +115,7 @@ export function Hero() {
           {/* Badge de Autoridade com tom Rosé Gold e Azul */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#B58A80]/40 bg-[#1A2536]/80 backdrop-blur-md text-xs sm:text-sm font-heading tracking-wide text-[#E3C9C3] mb-3 sm:mb-4 shadow-sm">
             <ShieldCheck className="w-4 h-4 text-[#B58A80]" />
-            <span>Thais Iavorski Advocacia • Mais de 8 Anos de Prática</span>
+            <span>Thais Iavorski Advocacia • Atuação Jurídica desde 2016</span>
           </div>
 
           {/* Headline Principal */}
@@ -143,7 +143,7 @@ export function Hero() {
               className="btn-pill bg-[#B58A80] hover:bg-[#9D736A] hover:scale-[1.02] text-white border-2 border-[#E3C9C3]/40 gap-2.5 py-2.5 sm:py-3.5 px-5 sm:px-7 text-xs sm:text-sm font-semibold tracking-normal shadow-[0_6px_24px_rgba(181,138,128,0.45)] group transition-all text-center justify-center flex items-center cursor-pointer"
             >
               <WhatsAppIcon className="w-4 h-4 fill-white group-hover:scale-110 transition-transform" />
-              <span>Falar com a Dra. Thais</span>
+              <span>Falar direto com Advogada</span>
             </a>
 
             <Link
@@ -174,7 +174,7 @@ export function Hero() {
               </span>
               <span className="flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#B58A80]" />
-                +8 Anos de Prática
+                Advocacia desde 2016
               </span>
             </div>
           </div>
