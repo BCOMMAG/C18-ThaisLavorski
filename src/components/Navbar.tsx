@@ -89,21 +89,21 @@ export function Navbar() {
   return (
     <>
       {/* 1. LOGO MOBILE FIXA SEPARADA - RIGOROSAMENTE DESACOPLADA DO MENU E ELEVADA (CLIQUE RETORNA AO TOPO DA PÁGINA INICIAL) */}
-      <div className="lg:hidden fixed -top-3.5 sm:-top-4 left-2 sm:left-3 z-[45] pointer-events-none">
+      <div className="lg:hidden fixed top-1 sm:top-1.5 left-2 sm:left-3 z-[45] pointer-events-none">
         <Link
           href="/"
           onClick={handleLogoClick}
           className="flex items-center group focus:outline-none pointer-events-auto"
           aria-label="Ir para a página inicial"
         >
-          <div className="relative h-20 sm:h-22 w-32 sm:w-36 max-w-[36vw] transition-transform duration-300 group-hover:scale-105">
+          <div className="relative h-[4.25rem] sm:h-[4.65rem] w-28 sm:w-32 max-w-[32vw] transition-transform duration-300 group-hover:scale-105">
             <Image
               src={currentLogo}
               alt={OFFICE_INFO.name}
               fill
               priority
               className="object-contain object-left drop-shadow-md"
-              sizes="(max-width: 640px) 144px, 160px"
+              sizes="(max-width: 640px) 120px, 140px"
             />
           </div>
         </Link>
@@ -121,25 +121,25 @@ export function Navbar() {
           <div className="relative min-h-[2.5rem] sm:min-h-[3rem] flex items-center justify-between gap-2 sm:gap-4">
             
             {/* Espaçador Mobile para proteger a área da logo sem afetar a altura dos botões */}
-            <div className="lg:hidden w-32 sm:w-36 max-w-[36vw] h-6 flex-shrink-0 pointer-events-none" />
+            <div className="lg:hidden w-28 sm:w-32 max-w-[32vw] h-6 flex-shrink-0 pointer-events-none" />
 
-            {/* Logo Desktop: Totalmente Desacoplada da altura da barra do menu (+20% no tamanho, clique retorna ao topo) */}
-            <div className="hidden lg:flex items-center justify-start relative flex-shrink-0 w-60 xl:w-72 h-10 pointer-events-none">
-              <div className="absolute left-0 top-1/2 -translate-y-1/2 pointer-events-auto">
+            {/* Logo Desktop: Totalmente Desacoplada da altura da barra do menu (tamanho ajustado -15%, posicionada levemente mais abaixo, clique retorna ao topo) */}
+            <div className="hidden lg:flex items-center justify-start relative flex-shrink-0 w-52 xl:w-60 h-10 pointer-events-none">
+              <div className="absolute left-0 top-[54%] -translate-y-1/2 pointer-events-auto">
                 <Link
                   href="/"
                   onClick={handleLogoClick}
                   className="flex items-center group focus:outline-none"
                   aria-label="Ir para a página inicial"
                 >
-                  <div className="relative h-22 xl:h-26 w-60 xl:w-72 transition-transform duration-300 group-hover:scale-105">
+                  <div className="relative h-[4.75rem] xl:h-[5.5rem] w-52 xl:w-60 transition-transform duration-300 group-hover:scale-105">
                     <Image
                       src={currentLogo}
                       alt={OFFICE_INFO.name}
                       fill
                       priority
                       className="object-contain object-left drop-shadow-sm"
-                      sizes="(min-width: 1280px) 360px, 300px"
+                      sizes="(min-width: 1280px) 300px, 260px"
                     />
                   </div>
                 </Link>
@@ -355,13 +355,13 @@ export function Navbar() {
                   className="flex items-center focus:outline-none"
                   aria-label="Ir para a página inicial"
                 >
-                  <div className="relative h-14 w-40">
+                  <div className="relative h-12 w-34">
                     <Image
                       src={drawerLogo}
                       alt={OFFICE_INFO.name}
                       fill
                       className="object-contain object-left"
-                      sizes="160px"
+                      sizes="136px"
                     />
                   </div>
                 </Link>
